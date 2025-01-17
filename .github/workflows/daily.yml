@@ -3,7 +3,7 @@ name: Daily Tasks
 on:
   schedule:
     # Runs at 10:30 am UTC+8 every day
-    - cron: "30 2 * * *"
+    - cron: "11 2 * * *"
   workflow_dispatch:
 
 jobs:
@@ -15,4 +15,4 @@ jobs:
 
       - uses: docker://ghcr.io/starhearthunt/ff14risingstone_sign_task:master
         with:
-          cookie: ${{ secrets.COOKIE }}
+          cookie: ${{ secrets.s%3A2cDTp7RH0pROojrslNI402aFGqpl6c9l.H%2BDpWYPTglBha8WcgIaKuXZbhaPp0zwI4hFymL22Ot0 }}
